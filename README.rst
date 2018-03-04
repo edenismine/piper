@@ -1,9 +1,7 @@
 =====
 Piper
 =====
-.. image:: piper.png
-   :height: 100px
-   :align: center
+.. image:: banner.png
 
 Piper is custom init script for creating python projects.
 
