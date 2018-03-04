@@ -2,8 +2,10 @@
 Piper
 =====
 .. image:: piper.png
+   :height: 100px
+   :align: center
 
-Piper is custom init script for creating python projects-
+Piper is custom init script for creating python projects.
 
 Based on npm's ``npm init``. Defaults come directly from pypa's sampleproject_.
 
