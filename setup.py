@@ -34,11 +34,10 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='init setuptools development script',
-    packages=find_packages(),
+    py_modules=['piper'],
     install_requires=['Click'],
-    entry_points={
-        'console_scripts': [
-            'piper=piper:main',
-        ],
-    },
+    entry_points='''
+        [console_scripts]
+        piper=piper:cli
+        ''',
 )
